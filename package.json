@@ -1,0 +1,24 @@
+{
+  "name": "company",
+  "version": "1.0.0",
+  "description": "server : npm run start client : npm run start",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run start:dev --prefix server",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominuss-git/backNestjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominuss-git/backNestjs/issues"
+  },
+  "homepage": "https://github.com/dominuss-git/backNestjs#readme",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}

@@ -1,0 +1,36 @@
+.markdown {
+  /* display: flex; */
+  /* row-gap: 20px; */
+  /* flex-direction: column; */
+  overflow-y: auto;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: start;
+}
+
+.markdown p {
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.75;
+  /* margin-top: 20px; */
+}
+
+.markdown p:first-child {
+  margin-top: 0;
+
+}
+
+.markdown a {
+  color: #4d8dda;
+  text-decoration: none;
+}
+
+.markdown ul {
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.75;
+  /* list-style: inside; */
+  /* margin-left: 10px; */
+  /* margin-top: 10px; */
+}

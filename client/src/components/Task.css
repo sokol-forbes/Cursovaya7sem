@@ -1,0 +1,95 @@
+.card {
+  width: 300px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid grey;
+  padding: 16px;
+  position: relative;
+  display: flex;
+  align-self: stretch;
+  text-align: left;
+}
+
+.card__value {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Nunito';
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.card__value_good {
+  color: green;
+}
+
+.card__value_warning {
+  color: yellow
+}
+
+.card__value_danger {
+  color: red;
+}
+
+.card__description {
+  font-size: 12px;
+  font-weight: normal;
+  color: grey;
+  flex: 1;
+  line-height: 20px;
+  margin-top: 5px;
+  word-wrap: normal;
+}
+
+.card__title {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 900;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 20px;
+}
+
+.text__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.value__wrapper {
+  display: flex;
+  flex-shrink: 0;
+  line-height: 45px;
+  height: 45px;
+}
+
+.card__indicator {
+  position: absolute;
+  z-index: 2;
+  width: 5px;
+  left: 0;
+  top: 16px;
+  bottom: 16px;
+  border-radius: 0 5px 5px 0;
+
+}
+
+.card__indicator_disabled {
+  background-color: grey;
+}
+
+.card__indicator_good {
+  background-color: green;
+}
+
+.card__indicator_warning {
+  background-color: yellow;
+}
+
+.card__indicator_danger {
+  background-color: red;
+}
